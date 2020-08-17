@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic);
+
+@font-face {
+	font-family:  'UniSansHeavyCAPS';
+	src: url('unisansheavycaps.eot');
+	src: url('unisansheavycaps.eot') format('embedded-opentype'),
+	url('unisansheavycaps.woff2') format('woff2'),
+	url('unisansheavycaps.woff') format('woff'),
+	url('unisansheavycaps.ttf') format('truetype'),
+	url('unisansheavycaps.svg#UniSansHeavyCAPS') format('svg');
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: url(https://lh3.googleusercontent.com/3NE_W7qHOHA5JUUqMnLxFfyX30_jAyarVG1Ujc-DnL5vpt9p3oeEEZPDbAJfW4fqN1g_lvU=s154);
+}
+
+#first {
+	background: #000;
+	color: #fff;
+}
+
+iframe {
+	width: 560px;
+	height: 315px;
+	border: 0;
+}
+
+.top {
+  margin-top: 15px;
+}
+
+#zag {
+	font-family: "UniSansHeavyCAPS";
+	font-size: 50px;
+	color: #FFCC00;
+}
+
+.text1 {
+	font-size: 22px;
+}
+
+#section1 p {
+text-align: center;
+
+}
+
+.form-control {
+	width: 300px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+	font-size: 34px;
+}
+
+label {	
+		margin-right: 429px;
+	}
+
+
+
+footer {	
+		background: #898989;
+  margin-top: 100px;
+  padding-top: 30px;
+	}
+
+	a {
+		color: #333;
+	}
+
+	.container {
+		background: #f0f0f0;
+	}
+
+	p {
+		margin: 0;
+	}
