@@ -112,7 +112,7 @@ p {
 
 .skill {
 	width: 276px;
-	background: url('../img/time.jpg') no-repeat top;
+	background: url('img/time.jpg') no-repeat top;
 	padding-top: 80px;
 }
 
@@ -131,11 +131,11 @@ p {
 
 .skill-free {
 /*	width: 277px;
-*/	background: url('../img/beach.jpg') no-repeat top;
+*/	background: url('img/beach.jpg') no-repeat top;
 }
 
 .skill-change {
-	background: url('../img/launch.jpg') no-repeat top;
+	background: url('img/launch.jpg') no-repeat top;
 }
 
 .mail {
