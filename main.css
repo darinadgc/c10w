@@ -82,7 +82,7 @@ p {
 
 .btn:hover {
 	background: #F0EE08;
-*/	background: -moz-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27, 1.) 100%);
+	background: -moz-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27, 1.) 100%);
 	background: -webkit-gradient(top, bottom, color-stop(0%, rgba(240, 238, 8,1)), color-stop(100%, rgba(187, 154, 27,1)));
 	background: -webkit-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27,1) 100%);
 	background: -o-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27,1) 100%);
@@ -130,8 +130,7 @@ p {
 }
 
 .skill-free {
-/*	width: 277px;
-*/	background: url('img/beach.jpg') no-repeat top;
+	background: url('img/beach.jpg') no-repeat top;
 }
 
 .skill-change {
@@ -237,10 +236,7 @@ p {
 		margin: 110px 0;
 		align-items: center;
 	}
-	/*.skill {
-		width: auto;
-		margin-bottom: 30px;
-	}*/
+	
 }
 
 /* 576px - 768px */
@@ -259,9 +255,7 @@ p {
 	    margin-top: 15px;
 	    width: 100%;
 	}
-/*.skill {
-    margin: 30px 0;
-}*/
+
 }
 
 /* 320px - 576px */
