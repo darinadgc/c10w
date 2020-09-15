@@ -120,7 +120,7 @@ p {
 	font-size: 18px;
 }
 
-.btn, .section-title, .skill, p {
+.btn, .section-title, .skill, p a{
 	text-align: center;
 }
 
