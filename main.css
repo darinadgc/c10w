@@ -39,16 +39,16 @@ p {
 	color: #fff;
 }
 
-.wrapper, .skills {
+.wrapper, .skills,.w3c {
 	display: flex;
 }
 
 
 .wrapper {
 	align-items: center;
-	justify-content: space-between;
+justify-content: space-between;
 }
-
+.w3c {    justify-content: center;    }
 .offer {
 	width: 490px;
 }
