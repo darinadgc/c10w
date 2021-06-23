@@ -1,20 +1,13 @@
 
-
-
-
-
-
-
-
 var btn = document.getElementById('btn');
 
 btn.onclick = function (e) {
-	// e.preventDefault();
+	 e.preventDefault();
 	var text = document.querySelector('p.intro');
 	text.classList.add('red');
 	var img = document.querySelector('.ORUAFL');
 	img.style.display = 'none';
-	// document.querySelector('.skill-change').style.marginLeft = '50px';
+	document.querySelector('.skill-change').style.marginLeft = '50px';
 }
 
 $(function () {

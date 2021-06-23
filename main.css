@@ -39,16 +39,16 @@ p {
 	color: #fff;
 }
 
-.wrapper, .skills,.w3c {
+.wrapper, .skills {
 	display: flex;
 }
 
 
 .wrapper {
 	align-items: center;
-justify-content: space-between;
+	justify-content: space-between;
 }
-.w3c {    justify-content: center;    }
+
 .offer {
 	width: 490px;
 }
@@ -82,7 +82,7 @@ justify-content: space-between;
 
 .btn:hover {
 	background: #F0EE08;
-	background: -moz-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27, 1) 100%);
+*/	background: -moz-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27, 1.) 100%);
 	background: -webkit-gradient(top, bottom, color-stop(0%, rgba(240, 238, 8,1)), color-stop(100%, rgba(187, 154, 27,1)));
 	background: -webkit-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27,1) 100%);
 	background: -o-linear-gradient(-45deg, rgba(240, 238, 8,1) 0%, rgba(187, 154, 27,1) 100%);
@@ -120,7 +120,7 @@ justify-content: space-between;
 	font-size: 18px;
 }
 
-.btn, .section-title, .skill, p a,p{
+.btn, .section-title, .skill, .credits {
 	text-align: center;
 }
 
@@ -130,7 +130,8 @@ justify-content: space-between;
 }
 
 .skill-free {
-	background: url('img/beach.jpg') no-repeat top;
+/*	width: 277px;
+*/	background: url('img/beach.jpg') no-repeat top;
 }
 
 .skill-change {
@@ -236,7 +237,10 @@ justify-content: space-between;
 		margin: 110px 0;
 		align-items: center;
 	}
-	
+	/*.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}*/
 }
 
 /* 576px - 768px */
@@ -255,7 +259,9 @@ justify-content: space-between;
 	    margin-top: 15px;
 	    width: 100%;
 	}
-
+/*.skill {
+    margin: 30px 0;
+}*/
 }
 
 /* 320px - 576px */

@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Двигаться к мечте!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="icon" href="img/favicon.png" type="image/x-icon">
- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900%7CUbuntu:400,700%7COpen+Sans&amp;subset=cyrillic" rel="stylesheet">
-	 <link
-    rel="stylesheet"
-    href="animate.css"
-  />
+  <link rel="icon" href="img/favicon.jpg" type="image/x-icon">
+ <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon.jpg" sizes="50x50">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon.jpg">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700,900|Ubuntu:400,700|Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -26,7 +27,7 @@
 					<p class="intro">
 						Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
 					</p>
-					<a href="#title" class="btn" id="btn">Двигаться к мечте!</a>
+					<a data-goto="#clients"  href="#title" class="btn" id="btn">Двигаться к мечте!</a>
 				</div>
 				<img src="img/ORUAFL.png" alt="Overseas journey" class="ORUAFL animated fadeInRight">
 			</div>
@@ -69,7 +70,7 @@
 			<form action="#" class="form">
 				<input type="text" placeholder="Имя" class="input">
 				<input type="email" placeholder="E-mail" name="email" class="input" required>
-				<input type="tel" placeholder="Телефон" name="phone" class="input" required>
+				<input type="phone" placeholder="Телефон" name="phone" class="input" required>
 				<input type="text" placeholder="Куда я полечу в ближайшее время?" class="input">
 				<button type="submit" class="btn btn-form">Двигаться к мечте!</button>
 			</form>
@@ -77,22 +78,13 @@
 	</section>
 	<footer id="footer" class="footer">
 		<div class="container">
-			
-			<p class="w3c">
-	<a href="http://jigsaw.w3.org/css-validator/check/referer">
-		<img style="border:0;width:88px;height:31px"
-			src="//jigsaw.w3.org/css-validator/images/vcss-blue"
-			alt="Правильный CSS!" />
-	</a>
-</p>
 			<p class="credits">
 				© Все мои мечты защищены моим трудолюбием
 			</p>
 		</div>
 	</footer>
 
-	<script src="jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="main.js"></script>
-
 </body>
 </html>
